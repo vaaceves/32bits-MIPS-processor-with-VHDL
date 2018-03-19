@@ -12,7 +12,7 @@ entity Mux4x1 is
          mux_in2:in STD_LOGIC;
          mux_in3:in STD_LOGIC;
          mux_selector: in STD_LOGIC_VECTOR(1 downto 0);
-         mux_out: out STD_LOGIC;
+         mux_out: out STD_LOGIC
     );
 end Mux4x1;
 
