@@ -31,7 +31,7 @@ architecture alu_structural of alu_1 is
             mux_in2: in std_logic;
             mux_in3: in std_logic;
             mux_selector: in STD_LOGIC_VECTOR(1 downto 0);
-            mux_out: out std_logic;
+            mux_out: out std_logic
         );
     end component;
     --
